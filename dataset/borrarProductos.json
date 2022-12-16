@@ -14,5 +14,6 @@
 				"fileSystem": "putsfront"
 			}
 		}
-	}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
 }
