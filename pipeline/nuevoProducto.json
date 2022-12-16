@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Notebook1",
+				"name": "notebookProductos",
 				"type": "DatabricksNotebook",
 				"dependsOn": [],
 				"policy": {
@@ -18,7 +18,14 @@
 			{
 				"name": "Delete1",
 				"type": "Delete",
-				"dependsOn": [],
+				"dependsOn": [
+					{
+						"activity": "notebookProductos",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
 				"policy": {
 					"timeout": "0.12:00:00",
 					"retry": 0,
