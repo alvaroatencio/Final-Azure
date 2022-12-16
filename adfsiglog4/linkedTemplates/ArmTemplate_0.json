@@ -87,7 +87,7 @@
 			"properties": {
 				"activities": [
 					{
-						"name": "Notebook1",
+						"name": "notebookTransformaciones",
 						"type": "DatabricksNotebook",
 						"dependsOn": [],
 						"policy": {
