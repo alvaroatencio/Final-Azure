@@ -13,7 +13,14 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/actualizardatalake (1)"
+				},
+				"linkedServiceName": {
+					"referenceName": "notebookVentas",
+					"type": "LinkedServiceReference"
+				}
 			}
 		],
 		"annotations": []
