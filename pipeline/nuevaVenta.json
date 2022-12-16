@@ -13,7 +13,14 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/TransformacionyMigracion"
+				},
+				"linkedServiceName": {
+					"referenceName": "notebookVentas",
+					"type": "LinkedServiceReference"
+				}
 			},
 			{
 				"name": "borrarVentas",
@@ -38,6 +45,12 @@
 					"dataset": {
 						"referenceName": "borrarVentas",
 						"type": "DatasetReference"
+					},
+					"logStorageSettings": {
+						"linkedServiceName": {
+							"referenceName": "AzureDataLakeStorage",
+							"type": "LinkedServiceReference"
+						}
 					},
 					"enableLogging": true,
 					"storeSettings": {

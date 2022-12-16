@@ -13,7 +13,14 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/actualizardatalake (1)"
+				},
+				"linkedServiceName": {
+					"referenceName": "notebookVentas",
+					"type": "LinkedServiceReference"
+				}
 			},
 			{
 				"name": "borrarProductos",
@@ -38,6 +45,12 @@
 					"dataset": {
 						"referenceName": "borrarProductos",
 						"type": "DatasetReference"
+					},
+					"logStorageSettings": {
+						"linkedServiceName": {
+							"referenceName": "AzureDataLakeStorage",
+							"type": "LinkedServiceReference"
+						}
 					},
 					"enableLogging": true,
 					"storeSettings": {
@@ -71,6 +84,12 @@
 					"dataset": {
 						"referenceName": "borrarStocks",
 						"type": "DatasetReference"
+					},
+					"logStorageSettings": {
+						"linkedServiceName": {
+							"referenceName": "AzureDataLakeStorage",
+							"type": "LinkedServiceReference"
+						}
 					},
 					"enableLogging": true,
 					"storeSettings": {
