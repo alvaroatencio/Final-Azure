@@ -1,0 +1,9 @@
+{
+	"name": "adfsiglog4",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2a691bc5-6fd1-41e6-be23-9254d7db7383",
+		"tenantId": "f69eef80-6222-44a0-afd8-1058ac89eba1"
+	}
+}
