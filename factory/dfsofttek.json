@@ -1,0 +1,9 @@
+{
+	"name": "dfsofttek",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9d5b680d-02c2-411f-8992-f6004f31de53",
+		"tenantId": "bede8a65-db66-48bb-8fac-2b44a389f86f"
+	}
+}
