@@ -1,0 +1,24 @@
+{
+	"name": "trigger1",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "Prueba container",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/container/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/de0ba8e7-462b-49e7-b6aa-b71c5eda7207/resourceGroups/Marcos_Nahuel/providers/Microsoft.Storage/storageAccounts/datalakesofttek",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
