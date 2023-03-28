@@ -14,7 +14,7 @@
 		"type": "BlobEventsTrigger",
 		"typeProperties": {
 			"blobPathBeginsWith": "/container/blobs/",
-			"blobPathEndsWith": ".pdf",
+			"blobPathEndsWith": ".csv",
 			"ignoreEmptyBlobs": true,
 			"scope": "/subscriptions/de0ba8e7-462b-49e7-b6aa-b71c5eda7207/resourceGroups/Marcos_Nahuel/providers/Microsoft.Storage/storageAccounts/datalakesofttek",
 			"events": [
